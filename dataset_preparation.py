@@ -7,6 +7,7 @@ from scipy import signal
 
 # In[]
 
+
 def awgn(data, snr_range):
     
     pkt_num = data.shape[0]
